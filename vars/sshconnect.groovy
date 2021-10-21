@@ -1,4 +1,4 @@
-def connect(id)
+def call(id)
 shagent(credentials : ['${id}']) {
                     sh '''
                         ssh -o StrictHostKeyChecking=no remote_user@remote_host 'bash -s << 'ENDSSH'
