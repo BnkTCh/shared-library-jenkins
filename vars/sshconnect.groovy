@@ -11,3 +11,6 @@ def call() {
     }
   }
 }
+
+def sshCmd = steps.sh script: "ssh -o StrictHostKeyChecking=no remote_user@remote_host ${command1} ${command2}"
+sh(sshCmd)
