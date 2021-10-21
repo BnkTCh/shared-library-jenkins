@@ -6,6 +6,5 @@ def call() {
        echo "bianca" > /tmp/biancafile
     ENDSSH'
        '''.stripIndent()
-    }
   }
 }
