@@ -6,7 +6,7 @@ def call() {
        echo "hola como estas" > /tmp/archivo
        echo "bianca" > /tmp/biancafile
        ENDSSH'
-       '''.stripIndent()"
+       '''.stripIndent()
     sh(sshCmd)
     }
   }
